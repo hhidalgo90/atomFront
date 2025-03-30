@@ -1,0 +1,28 @@
+<div class="container my-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center mb-4">¡Hi there! Type your email to login</h5>
+                    <form [formGroup]="loginForm" (ngSubmit)="login()">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com" formControlName="email" />
+                        </div>
+                        <div class="alert alert-danger" role="alert"
+                            *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched">
+                            Invalid Email!
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary w-100"
+                                [disabled]="loginForm.get('email')?.invalid">
+                                Ingresar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
