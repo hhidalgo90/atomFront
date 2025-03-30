@@ -1,4 +1,27 @@
 @import "assets/styles/theme";
 
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Inter, "Helvetica Neue", sans-serif; }
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+  }
+  
+  .welcome-container {
+    text-align: justify;
+    padding: 1.5rem 3rem;
+  
+    .welcome-txt {
+      text-align: center;
+    }
+  
+    .good-luck-txt {
+      color: #ff6600;
+      font-weight: bold;
+    }
+  }

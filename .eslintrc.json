@@ -3,6 +3,7 @@
   "ignorePatterns": [
     "projects/**/*"
   ],
+  "linebreak-style": ["error", "windows"],
   "plugins": ["unused-imports", "simple-import-sort"],
   "parserOptions": {
     "project": "./tsconfig.json"
