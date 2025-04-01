@@ -3,35 +3,74 @@
 Este proyecto es una plantilla con lo necesario para comenzar a desarrollar el front-end de la aplicación de la prueba técnica de Atom. Se base en Angular con la versión 17.3.6.
 Se ha realizado la instalación y configuración de varias dependencias necesarias para el desarrollo de la aplicación, como por ejemplo: Angular Material.
 
-## Instrucciones
-Siéntete libre de clonar este repositorio y utilizarlo como base para el desarrollo de la aplicación. Sigue las indicates de la prueba técnica para completar la aplicación y desarrolla como más te sientas cómodo.
-
-De igual manera puedes documentar dentro de este archivo todo lo que deseas contar sobre tu desarrollo, como por ejemplo, decisiones de diseño, problemas encontrados, etc.
-
 ## Comentarios sobre el desarrollo
-...
+# TasksProject - Angular Frontend Application
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Esta es la aplicación frontend desarrollada en **Angular** que interactúa con el backend en **Spring Boot**. Su propósito es proporcionar una interfaz para la gestión de tareas, permitiendo a los usuarios visualizar, agregar, actualizar y eliminar tareas. La aplicación está desplegada en **Firebase Hosting**.
 
-## Code scaffolding
+## Tecnologías utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular 17**: Framework principal para la creación de la aplicación frontend.
+- **Angular Router**: Módulo de enrutamiento para gestionar la navegación entre vistas.
+- **Angular Forms**: Manejo de formularios reactivos para la entrada de datos de los usuarios.
+- **Bootstrap**: Librería de estilos para mejorar la apariencia de la aplicación.
+- **Firebase Hosting**: Servicio de Firebase utilizado para el despliegue del frontend.
+- **Environment Configuration**: Uso de entornos de configuración para manejar las URLs de desarrollo y producción del backend.
 
-## Build
+## Decisiones de Diseño
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Arquitectura
 
-## Running unit tests
+La aplicación sigue la arquitectura modular de **Angular**, con separación de responsabilidades en componentes, servicios y módulos:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Componentes**: Se encargan de la representación visual de la aplicación.
+- **Servicios**: Gestionan la comunicación con el backend y la manipulación de datos.
+- **Routing**: Se utiliza el módulo de enrutamiento de Angular para manejar la navegación.
+- **Environments**: Se utilizan archivos de entorno (`environment.ts`) para manejar distintas configuraciones de API en desarrollo y producción.
 
-## Running end-to-end tests
+### Gestión del Backend
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para permitir que la aplicación Angular interactúe con el backend, se usa un servicio centralizado que maneja las llamadas HTTP.
 
-## Further help
+```typescript
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+@Injectable({ providedIn: 'root' })
+export class TaskService {
+  private apiUrl = environment.apiUrl;
 
+  constructor(private http: HttpClient) {}
+
+  getTasks(userEmail: string) {
+    return this.http.get(`${this.apiUrl}/tasks?email=${userEmail}`);
+  }
+
+  addTask(userEmail: string, task: any) {
+    return this.http.post(`${this.apiUrl}/tasks`, { email: userEmail, ...task });
+  }
+}
+```
+
+## Instalación y Configuración
+
+1. **Clonar el repositorio**:
+   ```bash
+   git clone https://github.com/hhidalgo90/atomFront
+   ```
+
+2. **Instalar dependencias**:
+   ```bash
+   cd atom-frontend
+   npm install
+   ```
+
+3. **Iniciar servidor local**:
+    Ejecutar `ng serve`. En el navegador ir a `http://localhost:4200/`.
+
+
+4. **Desplegar en Firebase Hosting**:
+    Hacer merge request hacia la rama master, Cloud Build desplegara automaticamente.
