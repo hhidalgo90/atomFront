@@ -3,7 +3,7 @@ export const environment = {
     version       : "1.0.0",
     
     urlFront         : "http://localhost:4200",
-    apiUserUrl  : "http://localhost:8080/api/users",
-    apiTaskUrl  : "http://localhost:8080/api/tasks",
+    apiUserUrl  : "https://atombackendservice-44850752985.us-central1.run.app/api/users",
+    apiTaskUrl  : "https://atombackendservice-44850752985.us-central1.run.app/api/tasks",
 
   };
