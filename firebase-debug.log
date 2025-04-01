@@ -1,0 +1,392 @@
+[debug] [2025-03-30T21:40:58.191Z] ----------------------------------------------------------------------
+[debug] [2025-03-30T21:40:58.196Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hhida\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apphosting:backends:create --project atom-454920
+[debug] [2025-03-30T21:40:58.197Z] CLI Version:   13.35.1
+[debug] [2025-03-30T21:40:58.197Z] Platform:      win32
+[debug] [2025-03-30T21:40:58.198Z] Node Version:  v22.14.0
+[debug] [2025-03-30T21:40:58.198Z] Time:          Sun Mar 30 2025 18:40:58 GMT-0300 (hora de verano de Chile)
+[debug] [2025-03-30T21:40:58.198Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-30T21:40:58.512Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"apiKey"}
+[debug] [2025-03-30T21:40:58.519Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:58.520Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:58.522Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-03-30T21:40:58.522Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:40:59.550Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-03-30T21:40:59.551Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-03-30T21:40:59.551Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.551Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.551Z] >>> [apiv2][query] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus [none]
+[debug] [2025-03-30T21:40:59.871Z] <<< [apiv2][status] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus 200
+[debug] [2025-03-30T21:40:59.872Z] <<< [apiv2][body] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus {"overallStatus":"ACCEPTED","uTosStatus":{"tos":{"id":"firebase","tosId":"FIREBASE_UNIVERSAL"},"status":"ACCEPTED","acceptedVersion":6},"childTosStatus":[{"tos":{"id":"cloud","tosId":"CLOUD_PLATFORM"},"status":"ACCEPTED","acceptedVersion":36},{"tos":{"id":"firebase_b2b","tosId":"FIREBASE_B2B"},"status":"ACCEPTED","acceptedVersion":1},{"tos":{"id":"universal","tosId":"GOOGLE_APIS"},"status":"ACCEPTED","acceptedVersion":6}],"termsUrl":"https://firebase.google.com/terms","perServiceStatus":[{"tosId":"APP_CHECK","serviceStatus":{"tos":{"id":"app_check","tosId":"APP_CHECK"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"APP_HOSTING_TOS","serviceStatus":{"tos":{"id":"app_hosting","tosId":"APP_HOSTING_TOS"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"FIREBASE_DATA_CONNECT","serviceStatus":{"tos":{"id":"data_connect","tosId":"FIREBASE_DATA_CONNECT"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"CORE_APPS","serviceStatus":{"tos":{"id":"core_apps","tosId":"CORE_APPS"},"status":"ACCEPTED","acceptedVersion":1}},{"tosId":"VERTEX_AI_IN_FIREBASE","serviceStatus":{"tos":{"id":"vertex_ai_in_firebase","tosId":"VERTEX_AI_IN_FIREBASE"},"status":"ACCEPTED","acceptedVersion":2}},{"tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION","serviceStatus":{"tos":{"id":"firebase_crashlytics_app_distribution","tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION"},"status":"ACCEPTED","acceptedVersion":4}},{"tosId":"GENERATIVE_LANGUAGE","serviceStatus":{"tos":{"id":"generative-language-api","tosId":"GENERATIVE_LANGUAGE"},"status":"NEVER_ACCEPTED","acceptedVersion":3}}]}
+[debug] [2025-03-30T21:40:59.873Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.873Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.873Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.873Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.873Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.873Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.874Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.874Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.874Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.874Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.874Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.874Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:40:59.874Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com [none]
+[debug] [2025-03-30T21:40:59.874Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:40:59.875Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com [none]
+[debug] [2025-03-30T21:40:59.876Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:40:59.878Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com [none]
+[debug] [2025-03-30T21:40:59.878Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:40:59.881Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com [none]
+[debug] [2025-03-30T21:40:59.881Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:40:59.883Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com [none]
+[debug] [2025-03-30T21:40:59.883Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:40:59.886Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com [none]
+[debug] [2025-03-30T21:40:59.886Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:41:00.135Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com 200
+[debug] [2025-03-30T21:41:00.135Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com [omitted]
+[debug] [2025-03-30T21:41:00.828Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com 200
+[debug] [2025-03-30T21:41:00.828Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com [omitted]
+[debug] [2025-03-30T21:41:00.869Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com 200
+[debug] [2025-03-30T21:41:00.869Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com [omitted]
+[debug] [2025-03-30T21:41:00.961Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com 200
+[debug] [2025-03-30T21:41:00.961Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com [omitted]
+[debug] [2025-03-30T21:41:00.962Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com 200
+[debug] [2025-03-30T21:41:00.962Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com [omitted]
+[debug] [2025-03-30T21:41:00.992Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com 200
+[debug] [2025-03-30T21:41:00.992Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com [omitted]
+[debug] [2025-03-30T21:41:00.992Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:00.993Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:00.993Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-03-30T21:41:00.993Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:41:00.993Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-03-30T21:41:02.003Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-03-30T21:41:02.003Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-03-30T21:41:02.004Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:02.004Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:02.004Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 
+[debug] [2025-03-30T21:41:02.900Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 200
+[debug] [2025-03-30T21:41:02.900Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations {"locations":[{"name":"projects/atom-454920/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/atom-454920/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/atom-454920/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[debug] [2025-03-30T21:41:02.901Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:02.901Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:02.901Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 
+[debug] [2025-03-30T21:41:03.087Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 200
+[debug] [2025-03-30T21:41:03.088Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations {"locations":[{"name":"projects/atom-454920/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/atom-454920/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/atom-454920/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[info] +  Location set to us-central1.
+ 
+[info] i  === Import a GitHub repository 
+[debug] [2025-03-30T21:41:10.843Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:10.843Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:10.843Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth [none]
+[debug] [2025-03-30T21:41:11.810Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth 200
+[debug] [2025-03-30T21:41:11.810Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth {"name":"projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth","createTime":"2025-03-30T21:32:46.610761274Z","updateTime":"2025-03-30T21:33:56.200816001Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}}
+[info] +  Connected with GitHub successfully
+ 
+[debug] [2025-03-30T21:41:11.811Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:11.811Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:11.811Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations [none]
+[debug] [2025-03-30T21:41:12.238Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations 200
+[debug] [2025-03-30T21:41:12.238Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations {"installations":[{"id":"63618922","name":"hhidalgo90","type":"user"}]}
+[debug] [2025-03-30T21:41:15.201Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:15.201Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:15.202Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections pageSize=1000&pageToken=
+[debug] [2025-03-30T21:41:15.420Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections 200
+[debug] [2025-03-30T21:41:15.420Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections {"connections":[{"name":"projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q","createTime":"2025-03-30T21:36:40.945690645Z","updateTime":"2025-03-30T21:36:41.588800590Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}},{"name":"projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth","createTime":"2025-03-30T21:32:46.610761274Z","updateTime":"2025-03-30T21:33:56.200816001Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}}]}
+[info] i  Reusing matching connection apphosting-github-conn-73e970q 
+[debug] [2025-03-30T21:41:15.422Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:15.422Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:15.422Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q:fetchLinkableGitRepositories pageSize=1000&pageToken=
+[debug] [2025-03-30T21:41:16.026Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q:fetchLinkableGitRepositories 200
+[debug] [2025-03-30T21:41:16.026Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q:fetchLinkableGitRepositories {"linkableGitRepositories":[{"cloneUri":"https://github.com/hhidalgo90/angular_chat.git"},{"cloneUri":"https://github.com/hhidalgo90/API-HTTP-DTE.git"},{"cloneUri":"https://github.com/hhidalgo90/atomFront.git"},{"cloneUri":"https://github.com/hhidalgo90/desafio-EY.git"},{"cloneUri":"https://github.com/hhidalgo90/Desafio_Uno.git"},{"cloneUri":"https://github.com/hhidalgo90/findMyCar.git"},{"cloneUri":"https://github.com/hhidalgo90/findMyCar-backend.git"},{"cloneUri":"https://github.com/hhidalgo90/generadorPeriodos.git"},{"cloneUri":"https://github.com/hhidalgo90/junit-mockito.git"},{"cloneUri":"https://github.com/hhidalgo90/libredte-lib.git"},{"cloneUri":"https://github.com/hhidalgo90/prueba.git"},{"cloneUri":"https://github.com/hhidalgo90/server-config.git"},{"cloneUri":"https://github.com/hhidalgo90/spring-boot-chat.git"},{"cloneUri":"https://github.com/hhidalgo90/testPureza.git"},{"cloneUri":"https://github.com/hhidalgo90/testPurezaApp.git"},{"cloneUri":"https://github.com/hhidalgo90/udemyAngular11.git"},{"cloneUri":"https://github.com/hhidalgo90/udemyMicroservices.git"},{"cloneUri":"https://github.com/hhidalgo90/udemySpringBackend.git"},{"cloneUri":"https://github.com/hhidalgo90/unicomer.git"},{"cloneUri":"https://github.com/hhidalgo90/usuarios-bci.git"},{"cloneUri":"https://github.com/hhidalgo90/webhook.git"}]}
+[debug] [2025-03-30T21:41:28.207Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:28.207Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:28.207Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q [none]
+[debug] [2025-03-30T21:41:29.147Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q 200
+[debug] [2025-03-30T21:41:29.147Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q {"name":"projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q","createTime":"2025-03-30T21:36:40.945690645Z","updateTime":"2025-03-30T21:36:41.588800590Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}}
+[debug] [2025-03-30T21:41:29.147Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:29.147Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:29.148Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront [none]
+[debug] [2025-03-30T21:41:29.362Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront 200
+[debug] [2025-03-30T21:41:29.363Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront {"name":"projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront","cloneUri":"https://github.com/hhidalgo90/atomFront.git","createTime":"2025-03-30T21:36:53.127078799Z","updateTime":"2025-03-30T21:36:53.546558736Z"}
+[debug] [2025-03-30T21:41:42.707Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:42.707Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:41:42.708Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront:fetchGitRefs refType=BRANCH&pageSize=1000&pageToken=
+[debug] [2025-03-30T21:41:43.827Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront:fetchGitRefs 200
+[debug] [2025-03-30T21:41:43.827Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront:fetchGitRefs {"refNames":["developer/hhidalgo","master"]}
+[warn] !  The branch "master" does not exist on "hhidalgo90/atomFront". Please enter a valid branch for this repo. 
+[info] +  Repo linked successfully!
+ 
+[info] i  === Set up your backend 
+[debug] [2025-03-30T21:42:38.214Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:38.214Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:38.214Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations/us-central1/backends/atomApp [none]
+[debug] [2025-03-30T21:42:39.131Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations/us-central1/backends/atomApp 404
+[debug] [2025-03-30T21:42:39.131Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations/us-central1/backends/atomApp {"error":{"code":404,"message":"Resource 'projects/atom-454920/locations/us-central1/backends/atomApp' was not found","status":"NOT_FOUND","details":[{"@type":"type.googleapis.com/google.rpc.ResourceInfo","resourceName":"projects/atom-454920/locations/us-central1/backends/atomApp"}]}}
+[info] +  Name set to atomApp
+ 
+[debug] [2025-03-30T21:42:39.134Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:39.134Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:39.134Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/atom-454920/webApps pageSize=100
+[debug] [2025-03-30T21:42:39.400Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/atom-454920/webApps 404
+[debug] [2025-03-30T21:42:39.400Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/atom-454920/webApps {"error":{"code":404,"message":"Firebase project 44850752985 not found.","status":"NOT_FOUND"}}
+[debug] [2025-03-30T21:42:39.400Z] Request to https://firebase.googleapis.com/v1beta1/projects/atom-454920/webApps?pageSize=100 had HTTP Error: 404, Firebase project 44850752985 not found.
+[debug] [2025-03-30T21:42:39.402Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/atom-454920/webApps?pageSize=100 had HTTP Error: 404, Firebase project 44850752985 not found.
+    at responseToError (C:\Users\hhida\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\hhida\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to list Firebase WEB apps. See firebase-debug.log for more info.
+[debug] [2025-03-30T21:42:55.383Z] ----------------------------------------------------------------------
+[debug] [2025-03-30T21:42:55.388Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hhida\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apphosting:backends:create --project atom-454920
+[debug] [2025-03-30T21:42:55.389Z] CLI Version:   13.35.1
+[debug] [2025-03-30T21:42:55.389Z] Platform:      win32
+[debug] [2025-03-30T21:42:55.390Z] Node Version:  v22.14.0
+[debug] [2025-03-30T21:42:55.390Z] Time:          Sun Mar 30 2025 18:42:55 GMT-0300 (hora de verano de Chile)
+[debug] [2025-03-30T21:42:55.390Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-30T21:42:55.714Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"apiKey"}
+[debug] [2025-03-30T21:42:55.722Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:55.722Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:55.724Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-03-30T21:42:55.724Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:42:56.730Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-03-30T21:42:56.730Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-03-30T21:42:56.731Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.731Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.731Z] >>> [apiv2][query] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus [none]
+[debug] [2025-03-30T21:42:56.986Z] <<< [apiv2][status] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus 200
+[debug] [2025-03-30T21:42:56.987Z] <<< [apiv2][body] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus {"overallStatus":"ACCEPTED","uTosStatus":{"tos":{"id":"firebase","tosId":"FIREBASE_UNIVERSAL"},"status":"ACCEPTED","acceptedVersion":6},"childTosStatus":[{"tos":{"id":"cloud","tosId":"CLOUD_PLATFORM"},"status":"ACCEPTED","acceptedVersion":36},{"tos":{"id":"firebase_b2b","tosId":"FIREBASE_B2B"},"status":"ACCEPTED","acceptedVersion":1},{"tos":{"id":"universal","tosId":"GOOGLE_APIS"},"status":"ACCEPTED","acceptedVersion":6}],"termsUrl":"https://firebase.google.com/terms","perServiceStatus":[{"tosId":"APP_CHECK","serviceStatus":{"tos":{"id":"app_check","tosId":"APP_CHECK"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"APP_HOSTING_TOS","serviceStatus":{"tos":{"id":"app_hosting","tosId":"APP_HOSTING_TOS"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"FIREBASE_DATA_CONNECT","serviceStatus":{"tos":{"id":"data_connect","tosId":"FIREBASE_DATA_CONNECT"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"CORE_APPS","serviceStatus":{"tos":{"id":"core_apps","tosId":"CORE_APPS"},"status":"ACCEPTED","acceptedVersion":1}},{"tosId":"VERTEX_AI_IN_FIREBASE","serviceStatus":{"tos":{"id":"vertex_ai_in_firebase","tosId":"VERTEX_AI_IN_FIREBASE"},"status":"ACCEPTED","acceptedVersion":2}},{"tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION","serviceStatus":{"tos":{"id":"firebase_crashlytics_app_distribution","tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION"},"status":"ACCEPTED","acceptedVersion":4}},{"tosId":"GENERATIVE_LANGUAGE","serviceStatus":{"tos":{"id":"generative-language-api","tosId":"GENERATIVE_LANGUAGE"},"status":"NEVER_ACCEPTED","acceptedVersion":3}}]}
+[debug] [2025-03-30T21:42:56.988Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.988Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.988Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.988Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.988Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.988Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.989Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.989Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.989Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.989Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.989Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.989Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:56.989Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com [none]
+[debug] [2025-03-30T21:42:56.989Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:42:56.990Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com [none]
+[debug] [2025-03-30T21:42:56.990Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:42:56.993Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com [none]
+[debug] [2025-03-30T21:42:56.993Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:42:56.995Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com [none]
+[debug] [2025-03-30T21:42:56.995Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:42:56.998Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com [none]
+[debug] [2025-03-30T21:42:56.998Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:42:57.002Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com [none]
+[debug] [2025-03-30T21:42:57.002Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:42:57.907Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com 200
+[debug] [2025-03-30T21:42:57.907Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com [omitted]
+[debug] [2025-03-30T21:42:57.931Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com 200
+[debug] [2025-03-30T21:42:57.931Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com [omitted]
+[debug] [2025-03-30T21:42:57.932Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com 200
+[debug] [2025-03-30T21:42:57.932Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com [omitted]
+[debug] [2025-03-30T21:42:58.055Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com 200
+[debug] [2025-03-30T21:42:58.056Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com [omitted]
+[debug] [2025-03-30T21:42:58.074Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com 200
+[debug] [2025-03-30T21:42:58.074Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com [omitted]
+[debug] [2025-03-30T21:42:58.105Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com 200
+[debug] [2025-03-30T21:42:58.105Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com [omitted]
+[debug] [2025-03-30T21:42:58.106Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:58.106Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:58.106Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-03-30T21:42:58.106Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:42:58.106Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-03-30T21:42:58.990Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-03-30T21:42:58.990Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-03-30T21:42:58.991Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:58.991Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:58.991Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 
+[debug] [2025-03-30T21:42:59.883Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 200
+[debug] [2025-03-30T21:42:59.883Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations {"locations":[{"name":"projects/atom-454920/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/atom-454920/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/atom-454920/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[debug] [2025-03-30T21:42:59.883Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:59.883Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:42:59.884Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 
+[debug] [2025-03-30T21:43:00.061Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 200
+[debug] [2025-03-30T21:43:00.061Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations {"locations":[{"name":"projects/atom-454920/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/atom-454920/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/atom-454920/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[info] +  Location set to us-central1.
+ 
+[info] i  === Import a GitHub repository 
+[debug] [2025-03-30T21:43:01.549Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:01.550Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:01.550Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth [none]
+[debug] [2025-03-30T21:43:02.603Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth 200
+[debug] [2025-03-30T21:43:02.603Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth {"name":"projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth","createTime":"2025-03-30T21:32:46.610761274Z","updateTime":"2025-03-30T21:33:56.200816001Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}}
+[info] +  Connected with GitHub successfully
+ 
+[debug] [2025-03-30T21:43:02.604Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:02.604Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:02.604Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations [none]
+[debug] [2025-03-30T21:43:03.044Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations 200
+[debug] [2025-03-30T21:43:03.044Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations {"installations":[{"id":"63618922","name":"hhidalgo90","type":"user"}]}
+[debug] [2025-03-30T21:43:05.617Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:05.617Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:05.617Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections pageSize=1000&pageToken=
+[debug] [2025-03-30T21:43:05.821Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections 200
+[debug] [2025-03-30T21:43:05.822Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections {"connections":[{"name":"projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q","createTime":"2025-03-30T21:36:40.945690645Z","updateTime":"2025-03-30T21:36:41.588800590Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}},{"name":"projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth","createTime":"2025-03-30T21:32:46.610761274Z","updateTime":"2025-03-30T21:33:56.200816001Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}}]}
+[info] i  Reusing matching connection apphosting-github-conn-73e970q 
+[debug] [2025-03-30T21:43:05.823Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:05.823Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:05.823Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q:fetchLinkableGitRepositories pageSize=1000&pageToken=
+[debug] [2025-03-30T21:43:06.664Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q:fetchLinkableGitRepositories 200
+[debug] [2025-03-30T21:43:06.664Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q:fetchLinkableGitRepositories {"linkableGitRepositories":[{"cloneUri":"https://github.com/hhidalgo90/angular_chat.git"},{"cloneUri":"https://github.com/hhidalgo90/API-HTTP-DTE.git"},{"cloneUri":"https://github.com/hhidalgo90/atomFront.git"},{"cloneUri":"https://github.com/hhidalgo90/desafio-EY.git"},{"cloneUri":"https://github.com/hhidalgo90/Desafio_Uno.git"},{"cloneUri":"https://github.com/hhidalgo90/findMyCar.git"},{"cloneUri":"https://github.com/hhidalgo90/findMyCar-backend.git"},{"cloneUri":"https://github.com/hhidalgo90/generadorPeriodos.git"},{"cloneUri":"https://github.com/hhidalgo90/junit-mockito.git"},{"cloneUri":"https://github.com/hhidalgo90/libredte-lib.git"},{"cloneUri":"https://github.com/hhidalgo90/prueba.git"},{"cloneUri":"https://github.com/hhidalgo90/server-config.git"},{"cloneUri":"https://github.com/hhidalgo90/spring-boot-chat.git"},{"cloneUri":"https://github.com/hhidalgo90/testPureza.git"},{"cloneUri":"https://github.com/hhidalgo90/testPurezaApp.git"},{"cloneUri":"https://github.com/hhidalgo90/udemyAngular11.git"},{"cloneUri":"https://github.com/hhidalgo90/udemyMicroservices.git"},{"cloneUri":"https://github.com/hhidalgo90/udemySpringBackend.git"},{"cloneUri":"https://github.com/hhidalgo90/unicomer.git"},{"cloneUri":"https://github.com/hhidalgo90/usuarios-bci.git"},{"cloneUri":"https://github.com/hhidalgo90/webhook.git"}]}
+[debug] [2025-03-30T21:43:09.129Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:09.129Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:09.130Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q [none]
+[debug] [2025-03-30T21:43:09.323Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q 200
+[debug] [2025-03-30T21:43:09.323Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q {"name":"projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q","createTime":"2025-03-30T21:36:40.945690645Z","updateTime":"2025-03-30T21:36:41.588800590Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}}
+[debug] [2025-03-30T21:43:09.324Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:09.324Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:09.324Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront [none]
+[debug] [2025-03-30T21:43:09.542Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront 200
+[debug] [2025-03-30T21:43:09.542Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront {"name":"projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront","cloneUri":"https://github.com/hhidalgo90/atomFront.git","createTime":"2025-03-30T21:36:53.127078799Z","updateTime":"2025-03-30T21:36:53.546558736Z"}
+[debug] [2025-03-30T21:43:12.173Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:12.173Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:12.173Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront:fetchGitRefs refType=BRANCH&pageSize=1000&pageToken=
+[debug] [2025-03-30T21:43:12.630Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront:fetchGitRefs 200
+[debug] [2025-03-30T21:43:12.630Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront:fetchGitRefs {"refNames":["developer/hhidalgo","master"]}
+[warn] !  The branch "developer/hhidalgo" does not exist on "hhidalgo90/atomFront". Please enter a valid branch for this repo. 
+[info] +  Repo linked successfully!
+ 
+[info] i  === Set up your backend 
+[debug] [2025-03-30T21:43:37.774Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:37.774Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:37.775Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations/us-central1/backends/aaaa [none]
+[debug] [2025-03-30T21:43:38.627Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations/us-central1/backends/aaaa 404
+[debug] [2025-03-30T21:43:38.627Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations/us-central1/backends/aaaa {"error":{"code":404,"message":"Resource 'projects/atom-454920/locations/us-central1/backends/aaaa' was not found","status":"NOT_FOUND","details":[{"@type":"type.googleapis.com/google.rpc.ResourceInfo","resourceName":"projects/atom-454920/locations/us-central1/backends/aaaa"}]}}
+[info] +  Name set to aaaa
+ 
+[debug] [2025-03-30T21:43:38.630Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:38.630Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:43:38.630Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/atom-454920/webApps pageSize=100
+[debug] [2025-03-30T21:43:38.897Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/atom-454920/webApps 404
+[debug] [2025-03-30T21:43:38.897Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/atom-454920/webApps {"error":{"code":404,"message":"Firebase project 44850752985 not found.","status":"NOT_FOUND"}}
+[debug] [2025-03-30T21:43:38.897Z] Request to https://firebase.googleapis.com/v1beta1/projects/atom-454920/webApps?pageSize=100 had HTTP Error: 404, Firebase project 44850752985 not found.
+[debug] [2025-03-30T21:43:38.899Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/atom-454920/webApps?pageSize=100 had HTTP Error: 404, Firebase project 44850752985 not found.
+    at responseToError (C:\Users\hhida\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\hhida\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to list Firebase WEB apps. See firebase-debug.log for more info.
+[debug] [2025-03-30T21:49:13.540Z] ----------------------------------------------------------------------
+[debug] [2025-03-30T21:49:13.545Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hhida\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apphosting:backends:create --project atom-454920
+[debug] [2025-03-30T21:49:13.546Z] CLI Version:   13.35.1
+[debug] [2025-03-30T21:49:13.546Z] Platform:      win32
+[debug] [2025-03-30T21:49:13.546Z] Node Version:  v22.14.0
+[debug] [2025-03-30T21:49:13.547Z] Time:          Sun Mar 30 2025 18:49:13 GMT-0300 (hora de verano de Chile)
+[debug] [2025-03-30T21:49:13.547Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-30T21:49:13.878Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"apiKey"}
+[debug] [2025-03-30T21:49:13.886Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:13.887Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:13.888Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-03-30T21:49:13.889Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:49:14.872Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-03-30T21:49:14.872Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-03-30T21:49:14.873Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:14.873Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:14.873Z] >>> [apiv2][query] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus [none]
+[debug] [2025-03-30T21:49:15.188Z] <<< [apiv2][status] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus 200
+[debug] [2025-03-30T21:49:15.189Z] <<< [apiv2][body] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus {"overallStatus":"ACCEPTED","uTosStatus":{"tos":{"id":"firebase","tosId":"FIREBASE_UNIVERSAL"},"status":"ACCEPTED","acceptedVersion":6},"childTosStatus":[{"tos":{"id":"cloud","tosId":"CLOUD_PLATFORM"},"status":"ACCEPTED","acceptedVersion":36},{"tos":{"id":"firebase_b2b","tosId":"FIREBASE_B2B"},"status":"ACCEPTED","acceptedVersion":1},{"tos":{"id":"universal","tosId":"GOOGLE_APIS"},"status":"ACCEPTED","acceptedVersion":6}],"termsUrl":"https://firebase.google.com/terms","perServiceStatus":[{"tosId":"APP_CHECK","serviceStatus":{"tos":{"id":"app_check","tosId":"APP_CHECK"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"APP_HOSTING_TOS","serviceStatus":{"tos":{"id":"app_hosting","tosId":"APP_HOSTING_TOS"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"FIREBASE_DATA_CONNECT","serviceStatus":{"tos":{"id":"data_connect","tosId":"FIREBASE_DATA_CONNECT"},"status":"ACCEPTED","acceptedVersion":3}},{"tosId":"CORE_APPS","serviceStatus":{"tos":{"id":"core_apps","tosId":"CORE_APPS"},"status":"ACCEPTED","acceptedVersion":1}},{"tosId":"VERTEX_AI_IN_FIREBASE","serviceStatus":{"tos":{"id":"vertex_ai_in_firebase","tosId":"VERTEX_AI_IN_FIREBASE"},"status":"ACCEPTED","acceptedVersion":2}},{"tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION","serviceStatus":{"tos":{"id":"firebase_crashlytics_app_distribution","tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION"},"status":"ACCEPTED","acceptedVersion":4}},{"tosId":"GENERATIVE_LANGUAGE","serviceStatus":{"tos":{"id":"generative-language-api","tosId":"GENERATIVE_LANGUAGE"},"status":"NEVER_ACCEPTED","acceptedVersion":3}}]}
+[debug] [2025-03-30T21:49:15.190Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.190Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.190Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.190Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.190Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.190Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.190Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.190Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.191Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.191Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.191Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.191Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:15.191Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com [none]
+[debug] [2025-03-30T21:49:15.191Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:49:15.192Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com [none]
+[debug] [2025-03-30T21:49:15.192Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:49:15.195Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com [none]
+[debug] [2025-03-30T21:49:15.195Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:49:15.197Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com [none]
+[debug] [2025-03-30T21:49:15.197Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:49:15.199Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com [none]
+[debug] [2025-03-30T21:49:15.200Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:49:15.202Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com [none]
+[debug] [2025-03-30T21:49:15.202Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:49:16.041Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com 200
+[debug] [2025-03-30T21:49:16.041Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/developerconnect.googleapis.com [omitted]
+[debug] [2025-03-30T21:49:16.060Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com 200
+[debug] [2025-03-30T21:49:16.060Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/artifactregistry.googleapis.com [omitted]
+[debug] [2025-03-30T21:49:16.064Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com 200
+[debug] [2025-03-30T21:49:16.064Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/secretmanager.googleapis.com [omitted]
+[debug] [2025-03-30T21:49:16.091Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com 200
+[debug] [2025-03-30T21:49:16.092Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/run.googleapis.com [omitted]
+[debug] [2025-03-30T21:49:16.100Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com 200
+[debug] [2025-03-30T21:49:16.100Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/iam.googleapis.com [omitted]
+[debug] [2025-03-30T21:49:16.118Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com 200
+[debug] [2025-03-30T21:49:16.119Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/atom-454920/services/cloudbuild.googleapis.com [omitted]
+[debug] [2025-03-30T21:49:16.119Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:16.119Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:16.120Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-03-30T21:49:16.120Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/atom-454920
+[debug] [2025-03-30T21:49:16.120Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-03-30T21:49:17.019Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-03-30T21:49:17.019Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/atom-454920/serviceAccounts/firebase-app-hosting-compute@atom-454920.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-03-30T21:49:17.020Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:17.020Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:17.020Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 
+[debug] [2025-03-30T21:49:17.865Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 200
+[debug] [2025-03-30T21:49:17.866Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations {"locations":[{"name":"projects/atom-454920/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/atom-454920/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/atom-454920/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[debug] [2025-03-30T21:49:17.866Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:17.866Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:17.866Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 
+[debug] [2025-03-30T21:49:18.050Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations 200
+[debug] [2025-03-30T21:49:18.050Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/atom-454920/locations {"locations":[{"name":"projects/atom-454920/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/atom-454920/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/atom-454920/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[info] +  Location set to us-central1.
+ 
+[info] i  === Import a GitHub repository 
+[debug] [2025-03-30T21:49:19.573Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:19.573Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:19.573Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth [none]
+[debug] [2025-03-30T21:49:20.517Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth 200
+[debug] [2025-03-30T21:49:20.517Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth {"name":"projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth","createTime":"2025-03-30T21:32:46.610761274Z","updateTime":"2025-03-30T21:33:56.200816001Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}}
+[info] +  Connected with GitHub successfully
+ 
+[debug] [2025-03-30T21:49:20.518Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:20.519Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:20.519Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations [none]
+[debug] [2025-03-30T21:49:20.868Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations 200
+[debug] [2025-03-30T21:49:20.869Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations {"installations":[{"id":"63618922","name":"hhidalgo90","type":"user"}]}
+[debug] [2025-03-30T21:49:22.929Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:22.929Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:22.930Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections pageSize=1000&pageToken=
+[debug] [2025-03-30T21:49:23.121Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections 200
+[debug] [2025-03-30T21:49:23.121Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections {"connections":[{"name":"projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q","createTime":"2025-03-30T21:36:40.945690645Z","updateTime":"2025-03-30T21:36:41.588800590Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}},{"name":"projects/atom-454920/locations/us-central1/connections/firebase-app-hosting-github-oauth","createTime":"2025-03-30T21:32:46.610761274Z","updateTime":"2025-03-30T21:33:56.200816001Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}}]}
+[info] i  Reusing matching connection apphosting-github-conn-73e970q 
+[debug] [2025-03-30T21:49:23.123Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:23.123Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:23.123Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q:fetchLinkableGitRepositories pageSize=1000&pageToken=
+[debug] [2025-03-30T21:49:23.693Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q:fetchLinkableGitRepositories 200
+[debug] [2025-03-30T21:49:23.693Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q:fetchLinkableGitRepositories {"linkableGitRepositories":[{"cloneUri":"https://github.com/hhidalgo90/angular_chat.git"},{"cloneUri":"https://github.com/hhidalgo90/API-HTTP-DTE.git"},{"cloneUri":"https://github.com/hhidalgo90/atomFront.git"},{"cloneUri":"https://github.com/hhidalgo90/desafio-EY.git"},{"cloneUri":"https://github.com/hhidalgo90/Desafio_Uno.git"},{"cloneUri":"https://github.com/hhidalgo90/findMyCar.git"},{"cloneUri":"https://github.com/hhidalgo90/findMyCar-backend.git"},{"cloneUri":"https://github.com/hhidalgo90/generadorPeriodos.git"},{"cloneUri":"https://github.com/hhidalgo90/junit-mockito.git"},{"cloneUri":"https://github.com/hhidalgo90/libredte-lib.git"},{"cloneUri":"https://github.com/hhidalgo90/prueba.git"},{"cloneUri":"https://github.com/hhidalgo90/server-config.git"},{"cloneUri":"https://github.com/hhidalgo90/spring-boot-chat.git"},{"cloneUri":"https://github.com/hhidalgo90/testPureza.git"},{"cloneUri":"https://github.com/hhidalgo90/testPurezaApp.git"},{"cloneUri":"https://github.com/hhidalgo90/udemyAngular11.git"},{"cloneUri":"https://github.com/hhidalgo90/udemyMicroservices.git"},{"cloneUri":"https://github.com/hhidalgo90/udemySpringBackend.git"},{"cloneUri":"https://github.com/hhidalgo90/unicomer.git"},{"cloneUri":"https://github.com/hhidalgo90/usuarios-bci.git"},{"cloneUri":"https://github.com/hhidalgo90/webhook.git"}]}
+[debug] [2025-03-30T21:49:27.413Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:27.413Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:27.413Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q [none]
+[debug] [2025-03-30T21:49:27.582Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q 200
+[debug] [2025-03-30T21:49:27.582Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q {"name":"projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q","createTime":"2025-03-30T21:36:40.945690645Z","updateTime":"2025-03-30T21:36:41.588800590Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/atom-454920/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-d48f5b/versions/latest","username":"hhidalgo90"},"appInstallationId":"63618922","installationUri":"https://github.com/settings/installations/63618922"},"installationState":{"stage":"COMPLETE"}}
+[debug] [2025-03-30T21:49:27.583Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:27.583Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:27.583Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront [none]
+[debug] [2025-03-30T21:49:27.759Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront 200
+[debug] [2025-03-30T21:49:27.759Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront {"name":"projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront","cloneUri":"https://github.com/hhidalgo90/atomFront.git","createTime":"2025-03-30T21:36:53.127078799Z","updateTime":"2025-03-30T21:36:53.546558736Z"}
+[debug] [2025-03-30T21:49:34.627Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:34.627Z] Checked if tokens are valid: true, expires at: 1743373911053
+[debug] [2025-03-30T21:49:34.627Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront:fetchGitRefs refType=BRANCH&pageSize=1000&pageToken=
+[debug] [2025-03-30T21:49:35.874Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront:fetchGitRefs 200
+[debug] [2025-03-30T21:49:35.874Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/atom-454920/locations/us-central1/connections/apphosting-github-conn-73e970q/gitRepositoryLinks/hhidalgo90-atomFront:fetchGitRefs {"refNames":["developer/hhidalgo","master"]}
+[warn] !  The branch "master" does not exist on "hhidalgo90/atomFront". Please enter a valid branch for this repo. 
+[info] +  Repo linked successfully!
+ 
+[info] i  === Set up your backend 
